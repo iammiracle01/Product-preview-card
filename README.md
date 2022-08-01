@@ -26,7 +26,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: (https://github.com/iammiracle01/Product-preview-card)
-- Live Site URL: (https://iammiracle01.github.io/Responsive-Huddle-Landing-Page/)
+- Live Site URL: (https://iammiracle01.github.io/Product-preview-card/)
 
 ## My process
 
