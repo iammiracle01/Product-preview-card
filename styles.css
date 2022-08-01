@@ -1,0 +1,117 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(30, 38%, 92%);
+}
+
+.container{
+    margin: 100px auto;
+    width: 550px;
+    height: auto;
+    display: flex;
+    flex-flow: row;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.info{
+    margin: 10px;
+    padding: 10px;
+    width: 275px;
+}
+.product{
+    border-radius: 10px 0 0 10px;
+    width: 275px;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;
+    letter-spacing: 5px;
+}
+
+h1{
+    color:hsl(212, 21%, 14%);
+    font-size: 2rem;
+    font-family: 'Fraunces', sans-serif;
+    font-weight: 700;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+p.text{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;
+    margin-top: 10px;
+    padding-top: 10px;
+    line-height: 1.75;
+    
+}
+
+.price{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.new{
+    font-family: 'Fraunces', sans-serif;
+    color: hsl(158, 36%, 37%);
+    font-size: 2rem;
+    margin-right: 20px;
+}
+
+.old{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    text-align: center;
+    text-decoration: line-through;  
+    color: hsl(228, 12%, 48%);  
+    padding: auto;
+}
+
+.btn{
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    border-radius: 7.5px;
+    margin: 0 auto;
+    width: 225px;
+    padding: 12px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+.icon{
+    padding-right: 5px;
+    height: 12px;
+    align-self: center;
+}
+
+@media only screen and (max-width:600px) {
+    .container{
+        display: flex;
+        flex-flow: column;
+        width: 275px;
+    }    
+    .product{
+        border-radius: 10px 10px 0 0 ;
+    }
+}
