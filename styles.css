@@ -98,6 +98,9 @@ p.text{
     font-weight: 700;
     text-align: center;
 }
+.btn:active{
+    background-color:  hsl(212, 21%, 14%);
+}
 
 .icon{
     padding-right: 5px;
