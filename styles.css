@@ -15,7 +15,7 @@ body{
 
 .container{
     margin: 100px auto;
-    width: 575px;
+    width: 555px;
     height: auto;
     display: flex;
     flex-flow: row;
@@ -43,7 +43,7 @@ h2{
 
 h1{
     color:hsl(212, 21%, 14%);
-    font-size: 1rem;
+    font-size: 2rem;
     font-family: 'Fraunces', sans-serif;
     font-weight: 700;
     margin-top: 10px;
@@ -112,7 +112,7 @@ p.text{
     .container{
         display: flex;
         flex-flow: column;
-        width: 250px;
+        width: 275px;
     }    
     .product{
         border-radius: 10px 10px 0 0 ;
