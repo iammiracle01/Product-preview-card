@@ -1,49 +1,86 @@
-# Frontend Mentor - Product preview card component solution
 
-This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+# Product Preview Card Component
 
-## Table of contents
+The Product Preview Card Component is a simple and responsive web component that displays a product's image, name, description, price, and a button. This project demonstrates the use of HTML, CSS, and Flexbox to create a visually appealing and interactive card component.
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-  - [Built with](#built-with)
+## Table of Contents
 
-## Overview
+- [Demo](#demo)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Technologies](#technologies)
+- [Project Structure](#project-structure)
+- [Contributing](#contributing)
+- [License](#license)
 
-### The challenge
+## Demo
 
-Users should be able to:
+You can see the Product Preview Card Component in action [here](https://iammiracle01.github.io/Product-preview-card/).
+
+## Features
 
 - View the optimal layout for the page depending on their device's screen size
 - See hover states for all interactive elements on the page
 
-### Screenshot
+## Installation
 
-![](./screenshot.png)
+1. Clone the repository:
 
-### Links
+   ```bash
+   git clone https://github.com/iammiracle01/Product-preview-card.git
+   ```
 
-- Solution URL: (https://github.com/iammiracle01/Product-preview-card)
-- Live Site URL: (https://iammiracle01.github.io/Product-preview-card/)
+2. Navigate to the project directory:
 
-## My process
+   ```bash
+   cd Product-preview-card
+   ```
 
-### Built with
+3. Open `index.html` in your preferred web browser:
+
+   ```bash
+   open index.html
+   ```
+
+## Usage
+
+1. Open the Product Preview Card Component in your web browser.
+2. View the card and interact with elements to see hover states.
+3. Resize the browser window to see the responsive design in action.
+
+## Technologies
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
 - Font Awesome
 
-### Useful resources
+## Project Structure
 
-- (https://www.freecodecamp.org) - This helped me understand the effective usage of flexbox.
-- (https://www.w3schools.com) - This is an amazing website which helped me finally understand responsive media queries. I'd recommend it to anyone still learning this concept.
+```plaintext
+Product-preview-card/
+│
+├── index.html       # The main HTML file
+├── styles.css       # The CSS file for styling
+└── assets/          # Directory for images and other assets
+    └── screenshot.png
+```
 
-## Author
+## Contributing
 
-- Website - [Fasuyi Miracle Boluwatife](https://github.com/iammiracle01)
-- Frontend Mentor - [@iammiracle01](https://www.frontendmentor.io/profile/iammiracle01)
-- Twitter - [@iammiracle_01](https://www.twitter.com/iammiracle_01)
+Contributions are welcome! Please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/your-feature`).
+3. Commit your changes (`git commit -am 'Add some feature'`).
+4. Push to the branch (`git push origin feature/your-feature`).
+5. Create a new Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+Feel free to customize this README file to better suit your project's needs.
