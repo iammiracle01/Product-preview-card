@@ -63,8 +63,7 @@ Product-preview-card/
 │
 ├── index.html       # The main HTML file
 ├── styles.css       # The CSS file for styling
-└── assets/          # Directory for images and other assets
-    └── screenshot.png
+└── screenshot.png   # The image
 ```
 
 ## Contributing
